@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": 68.7842,
+        "lat": 40.4897
+    },
+    "weather": [
+        {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 14.37,
+        "feels_like": 13.25,
+        "temp_min": 14.37,
+        "temp_max": 14.37,
+        "pressure": 1023,
+        "humidity": 53,
+        "sea_level": 1023,
+        "grnd_level": 991
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 1.88,
+        "deg": 13,
+        "gust": 1.91
+    },
+    "clouds": {
+        "all": 100
+    },
+    "dt": 1776442625,
+    "sys": {
+        "country": "UZ",
+        "sunrise": 1776386628,
+        "sunset": 1776434687
+    },
+    "timezone": 18000,
+    "id": 1513966,
+    "name": "Guliston",
+    "cod": 200
+}

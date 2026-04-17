@@ -44,7 +44,7 @@ def create_temporery_table():
             response=requests.get(url)
             if response.status_code==200:
                 data=response.json()
-                folder_path='data/raw'
+                folder_path='/home/tolibjon/Desktop/weather_project/app/data/raw'
                 file_name = f"{city} -- weather_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
 
                 full_path=os.path.join(folder_path,file_name)
@@ -53,8 +53,9 @@ def create_temporery_table():
                     json.dump(data,q,indent=4)
             else:
                 print('malumot olishda xatolik yuz berdi',response.status_code())
-    except:
+    except Exception as e:
             for city in cities:
                 url=f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
                 response=requests.get(url)
-                print('malumot olishda xatolik yuz berdi',response.status_code())
+                print('malumot olishda xatolik yuz berdi',response.status_code)
+                print(e)
