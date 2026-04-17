@@ -27,14 +27,16 @@ def take_data():
 
             if response.status_code==200:
                 data=response.json()
+                data["weather.description"]=data["weather"][0]["description"]
+                data["weather.id"]=data["weather"][0]["id"]
                 all_weather_data.append(data)
-                print(f"{city} malumoti olindi")
+                #print(f"{city} malumoti olindi")
                 
             else:
                 print(f"{city} malumotini  olishda xatolik yuz berdi",response.status_code())
         return all_weather_data
-    except:
-        print("sayt bilan bilan bog'lanishda xatolik yoki ip  key  o'zgargan")
+    except Exception as e:
+        print("sayt bilan bilan bog'lanishda xatolik yoki ip  key  o'zgargan",e)
 def create_temporery_table():
     try:
         for city in cities:
@@ -52,6 +54,7 @@ def create_temporery_table():
             else:
                 print('malumot olishda xatolik yuz berdi',response.status_code())
     except:
-        print('malumot olishda xatolik yuz berdi',response.status_code())
-
-
+            for city in cities:
+                url=f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
+                response=requests.get(url)
+                print('malumot olishda xatolik yuz berdi',response.status_code())
