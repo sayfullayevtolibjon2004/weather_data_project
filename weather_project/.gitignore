@@ -3,3 +3,7 @@ __pycache__/
 *.log
 data/raw/
 mvenv/
+app/config/
+app/utils/
+*.yml
+*.yaml
