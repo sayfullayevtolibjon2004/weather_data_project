@@ -44,7 +44,7 @@ def create_temporery_table():
             response=requests.get(url)
             if response.status_code==200:
                 data=response.json()
-                folder_path='/home/tolibjon/Desktop/weather_project/app/data/raw'
+                folder_path="app/data/raw"
                 file_name = f"{city} -- weather_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
 
                 full_path=os.path.join(folder_path,file_name)
@@ -59,3 +59,4 @@ def create_temporery_table():
                 response=requests.get(url)
                 print('malumot olishda xatolik yuz berdi',response.status_code)
                 print(e)
+print(create_temporery_table())
