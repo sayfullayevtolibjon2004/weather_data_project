@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": 65.8,
+        "lat": 38.8667
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 23.68,
+        "feels_like": 22.52,
+        "temp_min": 23.68,
+        "temp_max": 23.68,
+        "pressure": 1013,
+        "humidity": 16,
+        "sea_level": 1013,
+        "grnd_level": 970
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.52,
+        "deg": 219,
+        "gust": 3.79
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1776593668,
+    "sys": {
+        "country": "UZ",
+        "sunrise": 1776560102,
+        "sunset": 1776608192
+    },
+    "timezone": 18000,
+    "id": 1216311,
+    "name": "Qarshi",
+    "cod": 200
+}

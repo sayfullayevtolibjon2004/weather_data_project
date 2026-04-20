@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": 59.6103,
+        "lat": 42.4531
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 21.87,
+        "feels_like": 20.71,
+        "temp_min": 21.87,
+        "temp_max": 21.87,
+        "pressure": 1013,
+        "humidity": 23,
+        "sea_level": 1013,
+        "grnd_level": 1004
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 6.79,
+        "deg": 123,
+        "gust": 7.63
+    },
+    "clouds": {
+        "all": 57
+    },
+    "dt": 1776591288,
+    "sys": {
+        "country": "UZ",
+        "sunrise": 1776561273,
+        "sunset": 1776609992
+    },
+    "timezone": 18000,
+    "id": 601294,
+    "name": "Nukus",
+    "cod": 200
+}

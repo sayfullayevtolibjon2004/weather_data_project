@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": 71.6726,
+        "lat": 40.9983
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 19.91,
+        "feels_like": 19,
+        "temp_min": 19.91,
+        "temp_max": 19.91,
+        "pressure": 1014,
+        "humidity": 40,
+        "sea_level": 1014,
+        "grnd_level": 956
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 6.12,
+        "deg": 95,
+        "gust": 4.07
+    },
+    "clouds": {
+        "all": 73
+    },
+    "dt": 1776591870,
+    "sys": {
+        "country": "UZ",
+        "sunrise": 1776558513,
+        "sunset": 1776606963
+    },
+    "timezone": 18000,
+    "id": 1513157,
+    "name": "Namangan",
+    "cod": 200
+}

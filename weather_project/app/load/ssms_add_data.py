@@ -1,4 +1,4 @@
-from config.connect_ssms import connect
+from config.connect_ssms import connect,conn
 import transform.sort_by_pandas as trnpn
 from datetime import datetime
 
@@ -32,6 +32,7 @@ def add_ssms():
         cursor.commit()
         print(f"{len(df)} ta shahar ma'lumoti Staging jadvalga yozildi.")
         cursor.close()
+        conn.close()
 
     except Exception as e:
         print(f"Xatolik yuz berdi: {e}")

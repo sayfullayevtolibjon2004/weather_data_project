@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": 64.4286,
+        "lat": 39.7747
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 19.79,
+        "feels_like": 18.61,
+        "temp_min": 19.79,
+        "temp_max": 19.79,
+        "pressure": 1016,
+        "humidity": 30,
+        "sea_level": 1016,
+        "grnd_level": 989
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 1.69,
+        "deg": 162,
+        "gust": 2.33
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1776574071,
+    "sys": {
+        "country": "UZ",
+        "sunrise": 1776560355,
+        "sunset": 1776608597
+    },
+    "timezone": 18000,
+    "id": 1217662,
+    "name": "Bukhara",
+    "cod": 200
+}

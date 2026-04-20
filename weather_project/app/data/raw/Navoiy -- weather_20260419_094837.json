@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": 65.3792,
+        "lat": 40.0844
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 18.42,
+        "feels_like": 17.1,
+        "temp_min": 18.42,
+        "temp_max": 18.42,
+        "pressure": 1016,
+        "humidity": 30,
+        "sea_level": 1016,
+        "grnd_level": 962
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 3.44,
+        "deg": 167,
+        "gust": 3.19
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1776574073,
+    "sys": {
+        "country": "UZ",
+        "sunrise": 1776560101,
+        "sunset": 1776608395
+    },
+    "timezone": 18000,
+    "id": 1513131,
+    "name": "Navoiy",
+    "cod": 200
+}
