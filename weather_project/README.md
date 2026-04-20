@@ -26,3 +26,7 @@ linux operation system
 docker
 git hub
 git 
+
+loyiha qiladigan ish :
+o'zbekton viloyatlari ob havosini har kuni soat 11:00 da bazaga qo'shish .
+
